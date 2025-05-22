@@ -52,7 +52,7 @@ module tt_um_uwasic_onboarding_jonathan (
     .en_reg_out_15_8(en_reg_out_15_8),
     .en_reg_pwm_7_0(en_reg_pwm_7_0),
     .en_reg_pwm_15_8(en_reg_pwm_15_8),
-    .pwm_duty_cycle(pwm_duty_cycle),
+    .pwm_duty_cycle(pwm_duty_cycle)
   );
 
   // Add uio_in and ui_in[7:3] to the list of unused signals:
